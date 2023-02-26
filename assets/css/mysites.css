@@ -1,0 +1,115 @@
+main {
+    height: calc(100vh - 150px);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, #search {
+    grid-column: span 2;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+#search {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#search input {
+    border: 0.5px solid grey;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    height: 40px;
+    justify-self: right;
+    padding-left: 5px;
+    background-color: white;
+}
+
+input:focus{
+    outline:none;
+}
+
+#search img {
+    height: 35px;
+    width: 35px;
+    padding: 2.5px;
+    border: 0.5px solid grey;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+    justify-self: left;
+    cursor: pointer;
+    background-color: white;
+}
+
+.siteBox {
+    justify-self: center;
+    align-self: top;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    overflow: hidden;
+    background-color: white;
+    grid-auto-flow: column;
+    margin-bottom: 20px;
+}
+
+.siteBox img {
+    height: 100%;
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.siteBox p {
+    width: 150px;
+    font-size: medium;
+    text-align: center;
+}
+
+.siteBox div {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: -50px;
+    padding-top: 5px;
+    visibility: hidden;
+    height: 20px;
+}
+
+.siteBox div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.siteBox > a {
+    width: min-content;
+    justify-self: center;
+}
+
+@media(max-width: 1000px){
+    main {
+        grid-template-columns: auto auto;
+    }
+    h1 {
+        font-size: large;
+    }
+    .siteBox p {
+        font-size: small;
+    }
+    .siteBox div {
+        visibility: visible;
+    }
+}

@@ -1,0 +1,29 @@
+main {
+    height: calc(100vh - 150px);
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+h1 {
+    align-self: center;
+}
+
+main a {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    height: 40px;
+    width: 50%;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+main a:hover {
+    color: white;
+    background-color: rgb(187, 125, 97);
+}

@@ -1,0 +1,110 @@
+main {
+    display: grid;
+    height: calc(100vh - 150px);
+    padding: 10px;
+    justify-items: center;
+    grid-template-columns: 25% 25% 50%;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+    grid-column: span 3;
+    margin-bottom: 30px;
+}
+
+#miniatureCadre {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
+}
+
+#miniatureCadre img {
+    width: 150px;
+    height: 150px;
+}
+
+#infoCadre {
+    display: grid;
+    justify-items: baseline;
+    align-content: center;
+}
+
+#infoCadre p {
+    margin-bottom: 10px;
+}
+
+#resultatCadre {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 180px;
+}
+
+#resultatCadre img {
+    height: 100%;
+    width: 100%;
+    margin-top: 8px;
+}
+
+#resultCadre {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#eventList div {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+#eventList p {
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#eventList span {
+    margin-left: 5px;
+}
+
+#eventList {
+    display: grid;
+    justify-items: center;
+    grid-auto-rows: 20%;
+    overflow-y: auto;
+}
+
+#eventList::-webkit-scrollbar {
+    display: none;
+  }
+
+#containerCanvas {
+    grid-column: span 2;
+}
+
+#containerCanvas canvas {
+    height: 200px;
+    background-color: white;
+}
+
+button {
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+    cursor: pointer;
+    justify-self: center;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(187, 125, 97);
+    color: white;
+}

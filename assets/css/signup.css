@@ -1,0 +1,132 @@
+main {
+    display: grid;
+    height: calc(100vh - 150px);
+    padding: 10px;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+}
+
+button img {
+    width: 40px;
+    height: 40px;
+}
+
+#imageField {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    align-self: flex-start;
+}
+
+#imageField img {
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    width: calc(100vw - 20px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.field {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.field input {
+    height: 30px;
+    border: 0.5px solid grey;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    align-self: baseline;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.field input:focus{
+    outline:none;
+}
+
+.fieldInput {
+    display: grid;
+    grid-template-columns: auto 50px;
+}
+
+.fieldInput div {
+    height: 40px;
+    border: 0.5px solid grey;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+}
+
+#photoProfil{
+    text-align: center;
+}
+
+button {
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    height: 40px;
+    width: 30%;
+    cursor: pointer;
+    grid-column: span 2;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+button:hover {
+    background-color: rgb(187, 125, 97);
+    color: white;
+}
+
+label {
+    width: 300px;
+    height: min-content;
+}
+
+#imageField{
+    justify-self: center;
+    cursor: pointer;
+}
+
+input:-internal-autofill-selected {
+    background-color: white;
+}
+
+@media(max-width: 1000px) {
+    main {
+        height: auto;
+    }
+    form {
+        grid-template-columns: 100%;
+        justify-content: baseline;
+    }
+    button {
+        grid-column: span 1;
+    }
+    .field {
+        margin-bottom: 10px;
+        justify-items: baseline;
+    }
+    label {
+        width: calc(70vw - 20px);
+    }
+    input {
+        width: calc(70vw - 90px);
+    }
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: large;
+    }
+}
