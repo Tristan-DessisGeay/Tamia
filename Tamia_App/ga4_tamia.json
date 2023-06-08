@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tamia-374720",
+  "private_key_id": "669475e6e6a9734c9f4c3f089522f1bac1e47468",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnJt1o9I3u9GuL\ntvGA9+aIpJcCwbLf1hXP3dodBhNRl2QpK5DDhI/jR8caG1h51QzYMEYdYEirgC3N\nDjAP9ZkD0m7RUECMSk5tYGjUkO4tO7knVZUP9fwp3UtdHXxEopBBlI6zvOWC2qps\nXN25V4AXafjoUSAA4DO/F6w5zf8/oUzdQlH44a7qAZNmSzTrnftUPSmiWq8BNH68\nS8tHXq5/ZBoeOE6SEXI/CVq7KgoRiOI00iq0GVYkrIU0Y+U9wV646ZrPNE2+3+WH\nYb5v+YUmn+v/tkgSeFctA9forpgQZgO57ZXfMWP9EWtOgWBzRBbqFdnLbcs4VrRZ\n2bLI4gYXAgMBAAECggEAAn7jjmYcWmV+15KvL2hEImUmtg1TUOE+6SAcWhOVpUG3\n5p92ZVzs0w1mzR58ZzFFpFKwMU8XNqxOwsGD+TEHDFYPfoOOuyl+20Y1unrBe55p\nKMuv0pGvJqbdsbG3gcTVl40Sxl87JAWExuJqExLZ4D+eTkWrzyeJzkAZu7E2LuqA\n7svn7WCQ5wNQ1IIArjagwgtXkuk4bhCxjOqnigexm2AWYGj5Z3/+ZYrjGIpIgPdD\nav+LTaFzNIMVrbwa4E/eH7+B/Ws6/MRyf+qTRy0S6Q24IcMkAAzO+Tq0SIPAOM12\nSmXOuTN+g3eZtyixFnpmNMkdvnpC2ZhtcILdxAU+AQKBgQDYiCyUi/OStZome6Qd\nuU82qy3tSaQzwbFKpDKSeLaV/GtIXjW8EygP+X6Hx2N0nAvpdCMsOFfwgGN1zDYz\neTzHwzBJ4FdfhuJ75eVJ0R2l4nhs7VS+nrszLRczCVDA7Y6F3VGjXPPYbcBsIOBE\nhXROOOSxhgqkx4BV64b8J9vIFwKBgQDFnoNNYD45nemf+slQb5P5uaWCIllA9jmo\nGJFzO26Ansi+yGvLRm1mlDeXUh+GWa+gYsUnQEzi1tWAvN7qj94VCGVFs88WxWpP\nPgyPXw+muM4aWd03g3yDWiNzf7vVKPEbRA5gY5LHWepC3wkKWwsf5U1GM9tpdEv1\nzAkf1PRyAQKBgDUEyt2okwB2RQNtPNcmW7YIHhu+71zY7X9YSyXANvzsrJwwrTma\n+zFGJuw6LykLWINWM5KNTUMPPMtIMHFUG0TSj01XiC1UyroJpaX4dSj8Ff6d8iUm\nmrHCNa8Cdep3gHFYqre0d+Sjov0W47MDdmH83kp1hr+oNc1T+V5eqBsLAoGBAJkY\nEtpXq/0Q09OnAlx5BCcbZhfpqkGEPuh1mACwUwv7dsMuGywQNGKagnKNIXUAd+mF\nevzMeIPnMOGZ8AvBRqf+qA4WnWEjsRcQl8RePY7IborFgXYnO8e6hepNU2NwY1Df\nKVAM88HSa4RAqw1FuNmN146CUAFjIhGabpsla/YBAoGAPvX+pmIBhuQwt7gVIv+E\nTZdW9MUpg2CXcN/drqLu54zal1YGPqJYh8GNkgta0iKDRIPniBzNkQOJlA32yq/z\nmvqmndfjYU+kOYQaj+y4H9+QdSriOzJDbhVKFQa4GX9+zakSjbZm2dVdYKYbKkie\nqJU54vUGIcL/8NuyLqjUFus=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ga4-tamia@tamia-374720.iam.gserviceaccount.com",
+  "client_id": "115158749701719714862",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ga4-tamia%40tamia-374720.iam.gserviceaccount.com"
+}
